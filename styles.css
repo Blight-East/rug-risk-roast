@@ -367,6 +367,28 @@ figcaption {
   font-size: clamp(2rem, 5vw, 4.2rem);
 }
 
+.wallet-box {
+  display: grid;
+  gap: 10px;
+  margin: 18px 0;
+  padding: 18px;
+  border: 1px solid var(--red);
+  background: rgba(230, 33, 47, .08);
+}
+
+.wallet-box span {
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.wallet-box code {
+  overflow-wrap: anywhere;
+  color: var(--paper);
+  font-size: clamp(.9rem, 2vw, 1.15rem);
+}
+
 footer {
   padding: 26px;
   border-top: 1px solid var(--line);
