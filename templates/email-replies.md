@@ -8,7 +8,7 @@ Subject: Rug-Risk Roast - intake needed
 Payment received / transaction found.
 
 To start the 24-hour audit window, complete the intake form here:
-[INTAKE_LINK]
+https://tally.so/r/jaE82a
 
 If you have not submitted your transaction signature yet, include it in the form.
 

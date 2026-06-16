@@ -45,7 +45,7 @@ Launch pricing:
 ## Setup Checklist
 
 1. Solana receiving wallet is configured in `site/payment.html`.
-2. Tally intake form is live at `https://tally.so/r/5BOaeN`.
+2. Quick Tally intake form is live at `https://tally.so/r/jaE82a`.
 3. Public sample report is live at `site/sample-report.html`.
 4. First dry-run audit is logged in `customers/2026-06-16-chronoleak-dry-run`.
 5. Open `site/index.html` and verify links.
