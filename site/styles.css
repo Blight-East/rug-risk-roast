@@ -341,6 +341,11 @@ figcaption {
   background: rgba(230, 33, 47, .12);
 }
 
+.sample-link {
+  width: fit-content;
+  margin-top: 14px;
+}
+
 .disclaimer {
   margin-bottom: 54px;
   padding: 24px;
@@ -365,6 +370,104 @@ figcaption {
 .document h2 {
   margin-top: 38px;
   font-size: clamp(2rem, 5vw, 4.2rem);
+}
+
+.report .lead {
+  max-width: 880px;
+}
+
+.report-hero,
+.report-table {
+  display: grid;
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.report-hero {
+  grid-template-columns: minmax(0, .8fr) minmax(0, 1fr);
+}
+
+.report-hero div,
+.report-table div,
+.findings li,
+.report pre,
+.columns {
+  border: 1px solid var(--line);
+  background: rgba(18, 20, 25, .88);
+}
+
+.report-hero div,
+.report-table div {
+  padding: 18px;
+}
+
+.report-hero span,
+.report-table span {
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.report-hero strong {
+  display: block;
+  margin: 10px 0;
+  color: var(--red);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(2.8rem, 6vw, 5.5rem);
+  line-height: 1;
+}
+
+.report-table {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.report-table strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.35rem;
+}
+
+.findings {
+  display: grid;
+  gap: 10px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.findings li,
+.columns li {
+  padding: 14px;
+  line-height: 1.5;
+}
+
+.report pre {
+  overflow-x: auto;
+  padding: 18px;
+  white-space: pre-wrap;
+}
+
+.report code {
+  color: var(--paper);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.columns li {
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.columns li:nth-child(2n) {
+  border-right: 0;
 }
 
 .wallet-box {
@@ -412,6 +515,9 @@ footer {
   .pricing,
   .steps,
   .sample,
+  .report-hero,
+  .report-table,
+  .columns,
   .proof-strip {
     grid-template-columns: 1fr;
   }
@@ -421,7 +527,8 @@ footer {
   }
 
   .proof-strip div,
-  .scorecard div {
+  .scorecard div,
+  .columns li {
     border-right: 0;
   }
 

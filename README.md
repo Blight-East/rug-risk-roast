@@ -23,6 +23,7 @@ Launch pricing:
 ## Folder Structure
 
 - `site/` - static landing page, risk page, and thank-you page.
+- `site/sample-report.html` - public sample report linked from the landing page.
 - `docs/audit-framework.md` - scoring rubric and review rules.
 - `docs/sample-report.md` - example report output.
 - `docs/fulfillment-sop.md` - exact operator workflow.
@@ -45,9 +46,10 @@ Launch pricing:
 
 1. Solana receiving wallet is configured in `site/payment.html`.
 2. Tally intake form is live at `https://tally.so/r/5BOaeN`.
-3. Open `site/index.html` and verify links.
-4. Run the first fake audit from `docs/sample-report.md` and `templates/audit-report-template.md`.
-5. Sell 10 audits before building automation or checkout integrations.
+3. Public sample report is live at `site/sample-report.html`.
+4. First dry-run audit is logged in `customers/2026-06-16-chronoleak-dry-run`.
+5. Open `site/index.html` and verify links.
+6. Sell 10 audits before building automation or checkout integrations.
 
 ## Manual Payment Flow
 

@@ -1,65 +1,70 @@
 # Sample Rug-Risk Roast Report
 
-Client: Example Token
+Client: Internal dry run
 
-Status: Pre-launch
+Project: ChronoLeak
 
-Date: 2026-06-15
+Ticker: `TIME`
+
+Status: Pre-launch dry run
+
+Date: 2026-06-16
 
 ## Overall Score
 
 ```text
-58 / 100
+54 / 100
 ```
 
-Verdict: Weak trust posture. The project may be legitimate, but the current public presentation looks rushed and under-disclosed.
+Verdict: Weak trust posture. The concept is understandable and the scam-link surface is still low because the project is pre-launch, but the public copy leans too hard on urgency, "early" language, and unsupported trust claims.
 
 ## Section Scores
 
 | Category | Score |
 |---|---:|
 | Identity clarity | 7 |
-| Token/page copy | 5 |
+| Token/page copy | 4 |
 | Visual trust | 6 |
-| Social proof | 4 |
-| Wallet/liquidity disclosure | 3 |
-| Launch safety | 6 |
+| Social proof | 3 |
+| Wallet/liquidity disclosure | 2 |
+| Launch safety | 5 |
 | Community readiness | 5 |
 | Scam-link risk | 8 |
 | Compliance language | 4 |
 
 ## Top 10 Red Flags
 
-1. High - Token description includes "moon" and "early" language.
-2. High - No authority status is disclosed.
-3. High - Telegram pin does not warn against DMs or fake links.
-4. Medium - Website and launch page use different taglines.
-5. Medium - Token image is hard to read at small size.
-6. Medium - No reserve wallet policy.
-7. Medium - X bio does not say what the project is.
-8. Medium - Launch post asks people to "hold the floor."
-9. Low - Website CTA is vague.
-10. Low - No post-launch update cadence is described.
+1. High - "Early holders" language implies timing advantage.
+2. High - "Community will hold the floor" sounds like coordinated price support.
+3. High - No authority status is prepared.
+4. High - No reserve or supply disclosure exists.
+5. Medium - "Official timeline coin" sounds bigger than the project can prove.
+6. Medium - Telegram pin has no official mint, official links, or DM scam warning.
+7. Medium - Launch post leads with urgency instead of the concept.
+8. Medium - No website or social consistency yet.
+9. Low - The time/timeline theme is good but generic.
+10. Low - No post-launch cadence is stated.
 
 ## Fixed Token Description
 
 ```text
-Example Token is an experimental internet-culture meme on Solana. It has no profit promise, no fake utility, and no guaranteed roadmap. Official links are posted on the website and Telegram pin. Meme coins are risky and can lose all value.
+ChronoLeak is an experimental Solana meme about broken timelines, weird internet lore, and the feeling that the chart already happened in another universe. It has no profit promise, no fake utility, and no guaranteed roadmap. Official links will be posted in the project bio and Telegram pin. Meme coins are risky and can lose all value.
 ```
 
 ## Fixed X Bio
 
 ```text
-Experimental Solana meme. No profit promise, no fake utility, no guaranteed roadmap. Official links only.
+Experimental Solana meme from a broken timeline. No profit promise, no fake utility, no guaranteed roadmap. Official links only.
 ```
 
 ## Fixed Telegram Pin
 
 ```text
-Welcome to Example Token.
+Welcome to ChronoLeak.
 
-Official mint: [insert mint]
-Official website: [insert site]
+Official mint: [add when live]
+Official launch page: [add Pump.fun link]
+Official X: [add X link]
 
 Rules:
 - No scam links.
@@ -74,9 +79,9 @@ This is a meme experiment, not financial advice. Meme coins can lose all value.
 ## Fixed Launch Post
 
 ```text
-Example Token is live.
+ChronoLeak is live.
 
-Experimental Solana meme.
+Experimental Solana meme from a broken timeline.
 No profit promise.
 No fake utility.
 No guaranteed roadmap.
@@ -90,17 +95,19 @@ Risk: meme coins can lose all value.
 
 - Guaranteed.
 - Next 100x.
-- Floor will hold.
+- Floor is sacred.
+- Hold the floor.
 - Buy now.
 - We are early.
-- Legal/safe/certified.
+- Based dev.
 - Trust the dev.
-- Dev will never sell.
+- Safest launch.
+- The dev will never sell.
 
 ## Next 5 Actions
 
-1. Publish authority status with explorer links.
-2. Rewrite token description and X bio.
-3. Pin official mint, website, and scam warning in Telegram.
-4. Remove price target language from launch copy.
-5. Create a short reserve/liquidity disclosure before launch.
+1. Write and pin official links before the token goes public.
+2. Publish authority status and reserve/supply policy.
+3. Replace all "early", "floor", and "based dev" copy with neutral project/risk language.
+4. Prepare a launch-safe Telegram pin with mint, official links, and anti-scam rules.
+5. Queue 3 non-price posts for the first 24 hours.
