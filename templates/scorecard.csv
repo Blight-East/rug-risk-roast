@@ -1,0 +1,2 @@
+order_id,buyer_name,buyer_email_or_contact,payment_tx_or_helio_id,payment_status,project_name,token_url,social_links,intake_received_at,audit_status,delivered_at,score,notes
+RRR-0001,Example Buyer,buyer@example.com,HELIO_OR_TX_ID,paid,Example Token,https://example.com,"https://x.com/example; https://t.me/example",2026-00-00T00:00:00-04:00,delivered,2026-00-00T00:00:00-04:00,58,Sample row
