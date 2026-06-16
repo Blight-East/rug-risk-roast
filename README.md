@@ -36,27 +36,35 @@ Launch pricing:
 ## V1 Stack
 
 - Landing page: static HTML/CSS.
-- Payment: Helio / MoonPay Commerce payment link.
-- Intake: Tally or Google Forms.
+- Payment: manual SOL/USDC transfer to a dedicated Solana receiving wallet.
+- Intake: Tally or Google Forms, with transaction signature included.
 - Delivery: manual email, Telegram, or X DM.
 - Tracking: local CSV.
 
 ## Setup Checklist
 
-1. Create Helio/MoonPay Commerce payment link.
-2. Create Tally/Google intake form using `templates/intake-questions.md`.
-3. Replace placeholders in `site/index.html` and `site/thanks.html`:
-   - `https://example.com/helio-rug-risk-roast`
-   - `https://tally.so/r/rug-risk-roast-intake`
-4. Open `site/index.html` and verify links.
-5. Run the first fake audit from `docs/sample-report.md` and `templates/audit-report-template.md`.
-6. Sell 10 audits before building automation.
+1. Create a dedicated Solana receiving wallet for Rug-Risk Roast.
+2. Replace `REPLACE_WITH_SOLANA_RECEIVING_WALLET` in `site/payment.html`.
+3. Create Tally/Google intake form using `templates/intake-questions.md`.
+4. Replace `https://tally.so/r/rug-risk-roast-intake` in `site/payment.html` and `site/thanks.html` if using a custom form URL.
+5. Open `site/index.html` and verify links.
+6. Run the first fake audit from `docs/sample-report.md` and `templates/audit-report-template.md`.
+7. Sell 10 audits before building automation or checkout integrations.
+
+## Manual Payment Flow
+
+Buyer sends one of:
+
+- `0.1 SOL`
+- `$19 USDC` on Solana
+
+Then buyer submits the transaction signature, contact info, and project details. Verify the transaction manually on Solscan before starting the 24-hour audit window.
 
 ## Fulfillment SLA
 
 Delivered within 24 hours after payment plus completed intake.
 
-If payment is received but intake is missing, the SLA starts when intake is complete.
+If payment is received but transaction signature or intake is missing, the SLA starts when both are complete.
 
 If a project is obviously malicious, reject/refund if possible. Do not provide optimization advice.
 

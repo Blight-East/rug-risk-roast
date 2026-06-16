@@ -6,12 +6,13 @@ Deliver within 24 hours after both are true:
 
 - Payment is confirmed.
 - Intake is complete.
+- Transaction signature is submitted.
 
-If payment is received but intake is missing, send the intake reminder and start the SLA when intake is complete.
+If payment is received but intake or transaction signature is missing, send the intake reminder and start the SLA when both are complete.
 
 ## Workflow
 
-1. Check payment in Helio/MoonPay Commerce dashboard.
+1. Check payment manually on Solscan. Confirm transaction success, recipient wallet, token, and amount.
 2. Confirm intake form submission.
 3. Create customer folder:
 

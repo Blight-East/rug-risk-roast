@@ -5,10 +5,12 @@
 Subject: Rug-Risk Roast - intake needed
 
 ```text
-Payment received.
+Payment received / transaction found.
 
 To start the 24-hour audit window, complete the intake form here:
 [INTAKE_LINK]
+
+If you have not submitted your transaction signature yet, include it in the form.
 
 The audit is an educational trust-readiness review, not financial, legal, tax, investment, or compliance advice.
 ```
@@ -18,7 +20,7 @@ The audit is an educational trust-readiness review, not financial, legal, tax, i
 Subject: Rug-Risk Roast - audit started
 
 ```text
-Got the intake. Your audit is now in progress.
+Got the intake. Your audit starts once the transaction signature is verified.
 
 Delivery target: within 24 hours.
 

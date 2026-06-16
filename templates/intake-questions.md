@@ -7,44 +7,45 @@ Use these fields in Tally or Google Forms.
 1. Contact email
 2. Telegram or X contact
 3. Preferred delivery method
+4. Payment transaction signature
 
 ## Project Basics
 
-4. Project name
-5. Ticker
-6. Launch chain
-7. Launch platform
-8. Is this live or pre-launch?
-9. Token/mint/link if live
+5. Project name
+6. Ticker
+7. Launch chain
+8. Launch platform
+9. Is this live or pre-launch?
+10. Token/mint/link if live
 
 ## Public Links
 
-10. Website
-11. X account
-12. Telegram
-13. Discord
-14. Other official links
+11. Website
+12. X account
+13. Telegram
+14. Discord
+15. Other official links
 
 ## Assets And Copy
 
-15. Token image link
-16. Token description
-17. Planned launch post
-18. Current X bio
-19. Current Telegram pinned message
+16. Token image link
+17. Token description
+18. Planned launch post
+19. Current X bio
+20. Current Telegram pinned message
 
 ## Wallet / Launch Details
 
-20. Wallet/liquidity disclosure if any
-21. Authority status if known
-22. Supply and reserve policy if known
-23. LP/pool link if live
+21. Wallet/liquidity disclosure if any
+22. Authority status if known
+23. Supply and reserve policy if known
+24. LP/pool link if live
 
 ## Priority
 
-24. What do you want reviewed most?
-25. Biggest concern before launch
-26. Anything you do not want included in the report?
+25. What do you want reviewed most?
+26. Biggest concern before launch
+27. Anything you do not want included in the report?
 
 ## Required Checkbox
 
