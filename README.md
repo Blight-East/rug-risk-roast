@@ -43,13 +43,11 @@ Launch pricing:
 
 ## Setup Checklist
 
-1. Create a dedicated Solana receiving wallet for Rug-Risk Roast.
-2. Replace `REPLACE_WITH_SOLANA_RECEIVING_WALLET` in `site/payment.html`.
-3. Create Tally/Google intake form using `templates/intake-questions.md`.
-4. Replace `https://tally.so/r/rug-risk-roast-intake` in `site/payment.html` and `site/thanks.html` if using a custom form URL.
-5. Open `site/index.html` and verify links.
-6. Run the first fake audit from `docs/sample-report.md` and `templates/audit-report-template.md`.
-7. Sell 10 audits before building automation or checkout integrations.
+1. Solana receiving wallet is configured in `site/payment.html`.
+2. Tally intake form is live at `https://tally.so/r/5BOaeN`.
+3. Open `site/index.html` and verify links.
+4. Run the first fake audit from `docs/sample-report.md` and `templates/audit-report-template.md`.
+5. Sell 10 audits before building automation or checkout integrations.
 
 ## Manual Payment Flow
 
