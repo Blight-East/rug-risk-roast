@@ -10,7 +10,28 @@ Deliver within 24 hours after both are true:
 
 If payment is received but intake or transaction signature is missing, send the intake reminder and start the SLA when both are complete.
 
-## Workflow
+## Automated Draft Workflow
+
+Use this workflow first for normal orders.
+
+1. Copy the Tally response into a JSON file using the field names from `templates/quick-intake-example.json`.
+2. Run:
+
+```bash
+node scripts/prepare-audit.mjs --input path/to/tally-response.json
+```
+
+3. Open the created customer folder.
+4. Read `operator-note.md`.
+5. If `payment-verification.json` does not say `paid`, manually resolve payment before delivery.
+6. Review and edit `audit-draft.md`.
+7. Verify live links manually if the buyer submitted links.
+8. Send the final report only after payment and the report are both reviewed.
+9. Send 48-hour follow-up.
+
+## Manual Fallback Workflow
+
+Use this if the script fails or the order needs special handling.
 
 1. Check payment manually on Solscan. Confirm transaction success, recipient wallet, token, and amount.
 2. Confirm intake form submission.

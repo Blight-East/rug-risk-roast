@@ -32,6 +32,7 @@ Launch pricing:
 - `templates/red-flag-library.md` - reusable findings and fixes.
 - `templates/email-replies.md` - buyer/customer messages.
 - `templates/scorecard.csv` - local customer/order tracker.
+- `scripts/prepare-audit.mjs` - local automation for payment verification and draft report creation.
 - `customers/` - create one folder per customer audit.
 
 ## V1 Stack
@@ -41,6 +42,7 @@ Launch pricing:
 - Intake: Tally or Google Forms, with transaction signature included.
 - Delivery: manual email, Telegram, or X DM.
 - Tracking: local CSV.
+- Automation: local Node script that verifies payment and drafts reports for review.
 
 ## Setup Checklist
 
@@ -67,6 +69,27 @@ Delivered within 24 hours after payment plus completed intake.
 If payment is received but transaction signature or intake is missing, the SLA starts when both are complete.
 
 If a project is obviously malicious, reject/refund if possible. Do not provide optimization advice.
+
+## Automation
+
+Dry-run the automation:
+
+```bash
+node scripts/prepare-audit.mjs \
+  --input templates/quick-intake-example.json \
+  --skip-payment \
+  --out-dir /tmp/rug-risk-roast-customers \
+  --no-log \
+  --force
+```
+
+For a real order, copy the Tally response into JSON and run:
+
+```bash
+node scripts/prepare-audit.mjs --input path/to/tally-response.json
+```
+
+See `docs/automation.md`.
 
 ## Compliance Position
 
